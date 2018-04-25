@@ -1,0 +1,14 @@
+{
+  "name": "Teknologi Jempolan",
+  "short_name": "Tekno Jempol",
+  "start_url": "https://teknojempol.blogspot.com/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3b5998",
+  "description": "Ulasan menarik tentang teknologi informasi, gadget, komputer/PC, hardware, software, serta tips dan trik pemanfaatan aplikasi",
+  "icons": [{
+    "src": "https://4.bp.blogspot.com/-Glfwhyp_gg8/WIp0KzNFmHI/AAAAAAAABSc/0Z3B3J2u5DEc7llTiNsvE3qHAdE-hG5QgCLcB/s1600/logo%2Btekno%2Bjempolan%2B32x32.png",
+    "sizes": "32x32",
+    "type": "image/png"
+  }]
+}

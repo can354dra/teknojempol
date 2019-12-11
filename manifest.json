@@ -1,14 +1,38 @@
 {
   "name": "Teknologi Jempolan",
   "short_name": "Tekno Jempol",
-  "start_url": "https://teknojempol.blogspot.com/",
+  "start_url": "https://www.teknojempol.com/",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#3b5998",
   "description": "Ulasan menarik tentang teknologi informasi, gadget, komputer/PC, hardware, software, serta tips dan trik pemanfaatan aplikasi",
   "icons": [{
-    "src": "https://4.bp.blogspot.com/-Glfwhyp_gg8/WIp0KzNFmHI/AAAAAAAABSc/0Z3B3J2u5DEc7llTiNsvE3qHAdE-hG5QgCLcB/s1600/logo%2Btekno%2Bjempolan%2B32x32.png",
-    "sizes": "32x32",
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s48/logo%2Btekno%2Bjempolan.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s72/logo%2Btekno%2Bjempolan.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s96/logo%2Btekno%2Bjempolan.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s144/logo%2Btekno%2Bjempolan.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s168/logo%2Btekno%2Bjempolan.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s192/logo%2Btekno%2Bjempolan.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },{
+    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s256/logo%2Btekno%2Bjempolan.png",
+    "sizes": "256x256",
     "type": "image/png"
   }]
 }

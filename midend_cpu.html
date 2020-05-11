@@ -1,0 +1,40 @@
+<html>
+   <head>
+      <title>GPU Performance Chart by Teknologi Jempolan</title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = google.visualization.arrayToDataTable([
+               ['CPU', 'Performance rate',{role:'style'}],
+               ['GTX 1660-Ti', 74, 'color: green'],
+               ['GTX 1660 Super', 69, 'color: green'],
+               ['GTX 1660', 62, 'color: green'],
+               ['GTX 1650 Super', 58, 'color: green'],
+               ['GTX 1650', 40, 'color: green'],
+               ['RX 5500-XT', 58, 'color: red']
+            ]);
+
+            var options = {
+            title: 'Tingkat Kinerja GPU kelas Mid-end (poin)',
+            legend: { position: 'none' }
+            
+            }; 
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.BarChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>

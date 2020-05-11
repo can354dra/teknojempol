@@ -1,0 +1,46 @@
+<html>
+   <head>
+      <title>CPU Performance Chart by Teknologi Jempolan</title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin : 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = google.visualization.arrayToDataTable([
+               ['CPU', 'Performance rate', {role:'style'}],
+               ['Core i9-9900KS', 103, 'color: blue'],
+               ['Core i9-9900K', 100, 'color: blue'],
+               ['Core i9-9900KF', 99, 'color: blue'],
+               ['Core i9-9900', 95, 'color: blue'],
+               ['Core i7-9700K', 99, 'color: blue'],
+               ['Core i7-9700KF', 98, 'color: blue'],
+               ['Core i7-9700F', 96, 'color: blue'],
+               ['Core i7-9700', 95, 'color: blue'],
+               ['Ryzen 9 3900X', 89, 'color: red'],
+               ['Ryzen 9 3950X', 89, 'color: red'],
+               ['Ryzen 7 3800X', 89, 'color: red'],
+               ['Ryzen 7 3700X', 89, 'color: red']
+            ]);
+
+            var options = {
+            title: 'Tingkatan Kinerja CPU kelas Performance (poin)',
+            legend: { position: 'none' }
+            
+            }; 
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.BarChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>

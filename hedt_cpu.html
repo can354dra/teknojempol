@@ -1,6 +1,6 @@
 <html>
    <head>
-      <title>Google Charts Tutorial</title>
+      <title>CPU Performance Chart by Teknologi Jempolan</title>
       <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
       </script>
       <script type = "text/javascript">
@@ -15,16 +15,24 @@
          function drawChart() {
             // Define the chart to be drawn.
             var data = google.visualization.arrayToDataTable([
-               ['CPU', 'Performance rate',{role:'style'}],
-               ['ryzen 7',  900,'color: red'],
-               ['2013',  1000,'color: red'],
-               ['2014',  1170,'color: blue'],
-               ['2015',  1250,'color: blue'],
-               ['2016',  1530,'color: red']
+               ['CPU', 'Performance rate', {role:'style'}],
+               ['Core i9-10940X', 91, 'color: blue'],
+               ['Core i9-10920X', 90, 'color: blue'],
+               ['Core i9-10900X', 90, 'color: blue'],
+               ['Core i9-9920X', 88, 'color: blue'],
+               ['Core i9-9940X', 88, 'color: blue'],
+               ['Core i9-10980XE', 88, 'color: blue'],
+               ['Core i9-9900X', 87, 'color: blue'],
+               ['Core i9-9960X', 87, 'color: blue'],
+               ['Ryzen TR 3960X', 86, 'color: red'],
+               ['Core i9-9980XE', 85, 'color: blue'],
+               ['Core i9-9820X', 85, 'color: blue'],
+               ['Ryzen TR 3970X', 85, 'color: red'],
+               ['Core i7-9800X', 86, 'color: blue']
             ]);
 
             var options = {
-            title: 'Population (in millions)',
+            title: 'Tingkatan Kinerja CPU kelas High-end Desktop',
             legend: { position: 'none' }
             
             }; 

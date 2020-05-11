@@ -9,21 +9,25 @@
    </head>
    
    <body>
-      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      <div id = "container" style = "width: 550px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
          function drawChart() {
             // Define the chart to be drawn.
             var data = google.visualization.arrayToDataTable([
-               ['Year', 'Asia'],
-               ['2012',  900],
-               ['2013',  1000],
-               ['2014',  1170],
-               ['2015',  1250],
-               ['2016',  1530]
+               ['CPU', 'Performance rate',{role:'style'}],
+               ['ryzen 7',  900,'color: red'],
+               ['2013',  1000,'color: red'],
+               ['2014',  1170,'color: blue'],
+               ['2015',  1250,'color: blue'],
+               ['2016',  1530,'color: red']
             ]);
 
-            var options = {title: 'Population (in millions)'}; 
+            var options = {
+            title: 'Population (in millions)',
+            legend: { position: 'none' }
+            
+            }; 
 
             // Instantiate and draw the chart.
             var chart = new google.visualization.BarChart(document.getElementById('container'));

@@ -4,35 +4,35 @@
   "start_url": "https://www.teknojempol.com/",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#3b5998",
+  "theme_color": "#446cb3",
   "description": "Ulasan menarik tentang teknologi informasi, gadget, komputer/PC, hardware, software, serta tips dan trik pemanfaatan aplikasi",
   "icons": [{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s48/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/-0DJ2cn8x48o/YBN4pbPjLzI/AAAAAAAAAoo/T6Ph5Zdfl1krSqtivmAepMkP7YxGw0J4wCPcBGAYYCw/s48/logo-48x48.png",
     "sizes": "48x48",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s72/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/-jZdP_5VxTdA/YBN4qT9CpPI/AAAAAAAAAow/Z7rh1TLASwgBRs9DJapU3JmBRu0hzD1uACPcBGAYYCw/s72/logo-72x72.png",
     "sizes": "72x72",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s96/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/-qWNf0V7fvVY/YBN4qQhh8sI/AAAAAAAAAos/P7SdLZE1gOcFM3r37k8rHMy5YcrNaMv3gCPcBGAYYCw/s96/logo-96x96.png",
     "sizes": "96x96",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s144/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/-_HkR9VXk3KQ/YBN4nRScO2I/AAAAAAAAAow/t5eqoXlaY0EVL7jnXYlTZ-wnHTm_dxQTACPcBGAYYCw/s144/logo-144x144.png",
     "sizes": "144x144",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s168/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/--eJdsXDtcko/YBN4nQWP3bI/AAAAAAAAAoY/wEspCkQbhncIEqjKE-xDy-99xtz12xBwwCPcBGAYYCw/s168/logo-168x168.png",
     "sizes": "168x168",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s192/logo%2Btekno%2Bjempolan.png",
+    "src": "https://1.bp.blogspot.com/-d0wxDfKrq-0/YBN4oWbCwBI/AAAAAAAAAog/U2VhrS_G2aoTWRy_jJZ8zbNGnjWPsIuUQCPcBGAYYCw/s192/logo-192x192.png",
     "sizes": "192x192",
     "type": "image/png"
   },{
-    "src": "https://1.bp.blogspot.com/-jJQIszAjvGQ/XfBJXOoQ4mI/AAAAAAAAAPQ/w43YVoNxB8osWOhIIxFntc0tS_J1HvXzACKgBGAsYHg/s256/logo%2Btekno%2Bjempolan.png",
-    "sizes": "256x256",
+    "src": "https://1.bp.blogspot.com/-d8jY3GTXc8M/YBN4pUeSrqI/AAAAAAAAAok/J0bKdrwwWBo4GBpFM9YTd5S05XwPfW4agCPcBGAYYCw/s512/logo-512x512.png",
+    "sizes": "512x512",
     "type": "image/png"
   }]
 }
